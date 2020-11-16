@@ -23,9 +23,6 @@ public class MemberService implements MemberServiceI{
 	@Resource(name = "memberDao")
 	private MemberDaoI memberDao;
 	
-	@Resource(name = "sqlSessionTemplate")
-	private SqlSessionTemplate sqlSession;
-	
 	public MemberService() {
 		// 주입해 재사용
 //		memberDao = new MemberDao();
